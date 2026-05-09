@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TransRisaralda
+  name: transRisaraldaMVSH
   title: TransRisaralda
   description: >
     Aplicación monolítica legacy desarrollada con Java 8,
@@ -27,8 +27,8 @@ spec:
   consumesApis: []
 
   profile:
-    displayName: Legacy Monolith Java 8
-    email: legacy-team@company.com
+    displayName: transRisaraldaMVSH
+    email: januarioijpt@gmail.com
 
   links:
     - url: https://github.com/company/legacy-monolith-java8
