@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: legacy-monolith-java8
-  title: Legacy Monolith Java 8
+  name: TransRisaralda
+  title: TransRisaralda
   description: >
     Aplicación monolítica legacy desarrollada con Java 8,
     Vaadin 8 y Spring Framework.
