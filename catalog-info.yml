@@ -1,0 +1,49 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: legacy-monolith-java8
+  title: Legacy Monolith Java 8
+  description: >
+    Aplicación monolítica legacy desarrollada con Java 8,
+    Vaadin 8 y Spring Framework.
+  tags:
+    - legacy
+    - monolith
+    - java8
+    - vaadin8
+    - spring
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: team-legacy
+  system: legacy-platform
+
+  providesApis: []
+
+  dependsOn: []
+
+  consumesApis: []
+
+  profile:
+    displayName: Legacy Monolith Java 8
+    email: legacy-team@company.com
+
+  links:
+    - url: https://github.com/company/legacy-monolith-java8
+      title: Repositorio
+      icon: github
+
+    - url: https://wiki.company.com/legacy-monolith
+      title: Documentación
+      icon: docs
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: legacy-platform
+  description: Plataforma de aplicaciones legacy monolíticas
+spec:
+  owner: team-legacy
